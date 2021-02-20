@@ -1,5 +1,5 @@
 # Sistema-Pet
-Cadastro e verificação de PET
+Cadastro e verificação de PET usando NODE.JS
 
 
 Desafio elaborado pelo professor da Digital House.
