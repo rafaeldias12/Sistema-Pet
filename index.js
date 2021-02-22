@@ -41,7 +41,7 @@ function salvar (){
     inquirer.prompt(cadastroPet).then(arquivo => {
         let dados = new MeuPet (arquivoJ[arquivoJ.length-1].identificador +1, arquivo.nomeDoPet.trim().capitalize(),arquivo.racaPet.trim().capitalize(), arquivo.nomeDoDono.trim().capitalize())
         baseVinda.push(dados);
-        fs.writeFileSync('dadosPet.json', JSON.stringify(baseVinda), null, 2);  
+        fs.writeFileSync('dadosPet.json', JSON.stringify(baseVinda), 'utf-8');  
     });
 };
 
