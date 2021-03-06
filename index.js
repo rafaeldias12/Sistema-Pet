@@ -47,7 +47,8 @@ function salvar (){
 
 //Listar todos os Pets cadastrados
 function listarPet(){
-    console.table(baseVinda);  
+    let [...y] = baseVinda
+    console.table(y);  
     acoes()
 }
 
